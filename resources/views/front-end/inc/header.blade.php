@@ -120,17 +120,17 @@
 					<div class="row">
 						<div class="col-md-4 pull-left">
 							<a href="#">
-								<img src="img/logo.png" alt="Logo" />
+								<img src="{{ asset('front-end/img/logo.png')}}" alt="Logo" />
 								<!-- <b>National Cab</b><span>Always there for you</span> -->
 							</a>
 						</div>
 						<div class="col-md-6 pull-right top-20">
 							<div class="location">
-								<img src="images/icon/location-ic.png" alt="Location" />
+								<img src="{{ asset('front-end/images/icon/location-ic.png')}}" alt="Location" />
 								<p>A12 - Dummy Street,<span> Omaha, Kuwait.</span></p>
 							</div>
 							<div class="phone">
-								<img src="images/icon/phone-ic.png" alt="phone" />
+								<img src="{{ asset('front-end/images/icon/phone-ic.png')}}" alt="phone" />
 								<p>Call Us Any Time:<span> +965 502 20709</span></p>
 							</div>
 						</div>
@@ -150,7 +150,7 @@
 						</button>
 						<div class="navbar-brand logo-block">
 							<a href="#">
-								<img src="images/logo.png" alt="Logo" />
+								<img src="{{ asset('front-end/images/logo.png')}}" alt="Logo" />
 								<b>National Cab</b><span>Always there for you</span>
 							</a>
 						</div>

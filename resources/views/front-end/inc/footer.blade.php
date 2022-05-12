@@ -7,13 +7,13 @@
 						<h3 class="widget-title">IMN Taxi Service</h3>
 
 						<ul>
-							<li><img src="images/icon/ftr-location.png" alt="Address" />A12 - Dummy Street,
+							<li><img src="{{ asset('front-end/images/icon/ftr-location.png')}}" alt="Address" />A12 - Dummy Street,
 
 								<span>Omaha, Kuwait.</span>
 							</li>
-							<li><img src="images/icon/ftr-customer.png" alt="Phone" /> Customer Support : <span>+965 502
+							<li><img src="{{ asset('front-end/images/icon/ftr-customer.png')}}" alt="Phone" /> Customer Support : <span>+965 502
 									20709</span></li>
-							<li><img src="images/icon/ftr-email.png" alt="Mail" /><span>Email :</span><a
+							<li><img src="{{ asset('front-end/images/icon/ftr-email.png')}}" alt="Mail" /><span>Email :</span><a
 									href="mailto:mail@NationalCab.com"> info@imontaxi.com</a></li>
 
 
@@ -63,12 +63,12 @@
 							</div><!-- /input-group -->
 						</div>
 						<ul>
-							<li><a href="#"><img src="images/icon/ftr-fb.png" alt="ftr" /></a></li>
-							<li><a href="#"><img src="images/icon/ftr-g+.png" alt="ftr" /></a></li>
-							<li><a href="#"><img src="images/icon/ftr-tumbler.png" alt="ftr" /></a></li>
-							<li><a href="#"><img src="images/icon/ftr-dribbble.png" alt="ftr" /></a></li>
-							<li><a href="#"><img src="images/icon/ftr-ln.png" alt="ftr" /></a></li>
-							<li><a href="#"><img src="images/icon/ftr-tw.png" alt="ftr" /></a></li>
+							<li><a href="#"><img src="{{ asset('front-end/images/icon/ftr-fb.png')}}" alt="ftr" /></a></li>
+							<li><a href="#"><img src="{{ asset('front-end/images/icon/ftr-go.png')}}" alt="ftr" /></a></li>
+							<li><a href="#"><img src="{{ asset('front-end/images/icon/ftr-tumbler.png')}}" alt="ftr" /></a></li>
+							<li><a href="#"><img src="{{ asset('front-end/images/icon/ftr-dribbble.png')}}" alt="ftr" /></a></li>
+							<li><a href="#"><img src="{{ asset('front-end/images/icon/ftr-ln.png')}}" alt="ftr" /></a></li>
+							<li><a href="#"><img src="{{ asset('front-end/images/icon/ftr-tw.png')}}" alt="ftr" /></a></li>
 						</ul>
 					</aside>
 				</div>

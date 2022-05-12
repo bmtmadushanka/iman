@@ -7,7 +7,7 @@
 			<div id="photos-slider" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="images/photos-slider/photo-slide-1.jpg" alt="side-1" />
+						<img src="{{ asset('front-end/images/photos-slider/photo-slide-1.jpg')}}" alt="side-1" />
 						<div class="carousel-caption">
 							<h2>A reliable way to travel</h2>
 							<p>Come and listen to a story about a man named Jed a poor mountaineer barely kept his
@@ -18,7 +18,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="images/photos-slider/photo-slide-1.jpg" alt="side-2" />
+						<img src="{{ asset('front-end/images/photos-slider/photo-slide-2.jpg')}}" alt="side-2" />
 						<div class="carousel-caption">
 							<h2>A reliable way to travel</h2>
 							<p>Come and listen to a story about a man named Jed a poor mountaineer barely kept his
@@ -34,7 +34,7 @@
 		<div class="container-fluid no-padding what-we-do">
 			<div class="section-padding"></div>
 			<div class="image-box">
-				<img src="images/services/service-1.png" alt="service">
+				<img src="{{ asset('front-end/images/services/service-1.png')}}" alt="service">
 			</div>
 			<!-- Container -->
 			<div class="container">
@@ -85,7 +85,7 @@
 				<div class="choose-carousel">
 					<div class="col-md-12">
 						<div class="choose-us-box">
-							<div class="choose-img-box"><img src="images/choose-us/choose-us-1.jpg" alt="choose-us-1" />
+							<div class="choose-img-box"><img src="{{ asset('front-end/images/choose-us/choose-us-1.jpg')}}" alt="choose-us-1" />
 							</div>
 							<div class="choose-us-content-box">
 								<h3>Trust And Safety</h3>
@@ -97,7 +97,7 @@
 					</div>
 					<div class="col-md-12">
 						<div class="choose-us-box">
-							<div class="choose-img-box"><img src="images/choose-us/choose-us-2.jpg" alt="choose-us-2" />
+							<div class="choose-img-box"><img src="{{ asset('front-end/images/choose-us/choose-us-2.jpg')}}" alt="choose-us-2" />
 							</div>
 							<div class="choose-us-content-box">
 								<h3>Feel The Comfort</h3>
@@ -109,7 +109,7 @@
 					</div>
 					<div class="col-md-12">
 						<div class="choose-us-box">
-							<div class="choose-img-box"><img src="images/choose-us/choose-us-3.jpg" alt="choose-us-3" />
+							<div class="choose-img-box"><img src="{{ asset('front-end/images/choose-us/choose-us-3.jpg')}}" alt="choose-us-3" />
 							</div>
 							<div class="choose-us-content-box">
 								<h3>Experienced Drivers</h3>
@@ -194,7 +194,7 @@
 			<div class="member-carousel">
 				<div id="member">
 					<div class="member-item">
-						<img src="images/members/member-1.jpg" alt="member-1" />
+						<img src="{{ asset('front-end/images/members/member-1.jpg')}}" alt="member-1" />
 						<div class="driver-info">
 							<div class="driver">
 								<h3>William Turner<span>Limousine Driver</span></h3>
@@ -211,7 +211,7 @@
 						</div>
 					</div>
 					<div class="member-item">
-						<img src="images/members/member-2.jpg" alt="member-2" />
+						<img src="{{ asset('front-end/images/members/member-2.jpg')}}" alt="member-2" />
 						<div class="driver-info">
 							<div class="driver">
 								<h3>Johny Roges<span>Sedan Driver</span></h3>
@@ -228,7 +228,7 @@
 						</div>
 					</div>
 					<div class="member-item">
-						<img src="images/members/member-3.jpg" alt="member-3" />
+						<img src="{{ asset('front-end/images/members/member-3.jpg')}}" alt="member-3" />
 						<div class="driver-info">
 							<div class="driver">
 								<h3>Altrin Mosea<span>SUV Driver</span></h3>
@@ -245,7 +245,7 @@
 						</div>
 					</div>
 					<div class="member-item">
-						<img src="images/members/member-4.jpg" alt="member-4" />
+						<img src="{{ asset('front-end/images/members/member-4.jpg')}}" alt="member-4" />
 						<div class="driver-info">
 							<div class="driver">
 								<h3>Luther King<span>Sedan Driver</span></h3>
@@ -265,7 +265,7 @@
 			</div><!-- Members Carousel/- -->
 			<!-- We Are Hire -->
 			<div class="we-are-hire pull-right">
-				<a href="#"><img src="images/members/member-5.jpg" alt="member-5" /></a>
+				<a href="#"><img src="{{ asset('front-end/images/members/member-5.jpg')}}" alt="member-5" /></a>
 				<div class="driver-info">
 					<a href="#"><span>We Are Hiring</span></a>
 				</div>
@@ -275,7 +275,7 @@
 
 		<!-- Testimonial -->
 		<div class="container-fluid no-padding testimonial">
-			<img src="images/border-pattern.jpg" alt="border" />
+			<img src="{{ asset('front-end/images/border-pattern.jpg')}}" alt="border" />
 			<div class="section-padding"></div>
 			<div class="container">
 				<div class="section-header">
@@ -302,7 +302,7 @@
 				</div>
 			</div>
 			<div class="section-padding"></div>
-			<img src="images/border-pattern.jpg" alt="border" />
+			<img src="{{ asset('front-end/images/border-pattern.jpg')}}" alt="border" />
 		</div><!-- Testimonial/- -->
 
 		<div class="container-fluid no-padding app">
@@ -317,14 +317,14 @@
 						<p class="get-mobile-content text-justify">Lorem ipsum dolor, sit amet Rem debitis velit qui
 							maiores obcaecati? Fuga saepe repudiandae, id sint dolores accusamus!</p>
 						<div class="get-mobile-playstore">
-							<a href="#"><img src="images/icon/google-play.png" alt="google-play"></a>
-							<a href="#"><img src="images/icon/app-store.png" alt="app-store.png"></a>
+							<a href="#"><img src="{{ asset('front-end/images/icon/google-play.png')}}" alt="google-play"></a>
+							<a href="#"><img src="{{ asset('front-end/images/icon/app-store.png')}}" alt="app-store.png"></a>
 						</div>
 					</div>
 					<div class="section-padding"></div>
 				</div>
 				<div class="col-md-8 pull-right app-bb">
-					<img src="img/mobile-app.png" alt="app">
+					<img src="{{ asset('front-end/img/mobile-app.png')}}" alt="app">
 				</div>
 			</div>
 		</div>
@@ -340,9 +340,9 @@
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<article class="blog-post-list">
 							<div class="entry-cover">
-								<a href="#"><img src="images/blog/blog-1.jpg" alt="blog-1" /></a>
+								<a href="#"><img src="{{ asset('front-end/images/blog/blog-1.jpg')}}" alt="blog-1" /></a>
 								<div class="post-meta">
-									<img src="images/icon/photo.png" alt="photo" />
+									<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo" />
 								</div>
 								<div class="entry-meta">
 									<div class="meta-inner">
@@ -377,9 +377,9 @@
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<article class="blog-post-list">
 							<div class="entry-cover">
-								<a href="#"><img src="images/blog/blog-2.jpg" alt="blog-1" /></a>
+								<a href="#"><img src="{{ asset('front-end/images/blog/blog-2.jpg')}}" alt="blog-1" /></a>
 								<div class="post-meta">
-									<img src="images/icon/video.png" alt="video" />
+									<img src="{{ asset('front-end/images/icon/video.png')}}" alt="video" />
 								</div>
 								<div class="entry-meta">
 									<div class="meta-inner">
@@ -412,9 +412,9 @@
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<article class="blog-post-list">
 							<div class="entry-cover">
-								<a href="#"><img src="images/blog/blog-3.jpg" alt="blog-1" /></a>
+								<a href="#"><img src="{{ asset('front-end/images/blog/blog-3.jpg')}}" alt="blog-1" /></a>
 								<div class="post-meta">
-									<img src="images/icon/photo.png" alt="photo" />
+									<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo" />
 								</div>
 								<div class="entry-meta">
 									<div class="meta-inner">
@@ -458,22 +458,22 @@
 				</div>
 				<div class="partner-carousel">
 					<div class="col-md-12">
-						<img src="images/partner/partner-1.png" alt="partner-1" />
+						<img src="{{ asset('front-end/images/partner/partner-1.png')}}" alt="partner-1" />
 					</div>
 					<div class="col-md-12">
-						<img src="images/partner/partner-2.png" alt="partner-2" />
+						<img src="{{ asset('front-end/images/partner/partner-2.png')}}" alt="partner-2" />
 					</div>
 					<div class="col-md-12">
-						<img src="images/partner/partner-3.png" alt="partner-3" />
+						<img src="{{ asset('front-end/images/partner/partner-3.png')}}" alt="partner-3" />
 					</div>
 					<div class="col-md-12">
-						<img src="images/partner/partner-4.png" alt="partner-4" />
+						<img src="{{ asset('front-end/images/partner/partner-4.png')}}" alt="partner-4" />
 					</div>
 					<div class="col-md-12">
-						<img src="images/partner/partner-5.png" alt="partner-5" />
+						<img src="{{ asset('front-end/images/partner/partner-5.png')}}" alt="partner-5" />
 					</div>
 					<div class="col-md-12">
-						<img src="images/partner/partner-6.png" alt="partner-6" />
+						<img src="{{ asset('front-end/images/partner/partner-6.png')}}" alt="partner-6" />
 					</div>
 				</div>
 			</div>
