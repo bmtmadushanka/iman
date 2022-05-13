@@ -15,7 +15,7 @@
 
 <!-- contact map /- -->
 <div class="map">
-	<div class="map-canvas" id="map-canvas-contact" data-lat="28.083627" data-lng="-80.608109" data-string="<div class='content'><h3>Let Us Talk ToGether</h3><div><img src='images/icon/map-lc.png' alt='map-lc' /> <p>A12 - Design Street,</p><p>Omaha, United States</p></div><div><img src='images/icon/map-ph.png' alt='map-ph' /> <p>(01) 987 654 32 1</p><p>(01) 123 456 78 9</p></div><div><img src='images/icon/map-mail.png' alt='map-mail' /> <a href='mailto:info@company.com'>info@company.com</a><a href='mailto:support@company.com'>Support@company.com</a></p></div></div>" data-zoom="12"></div>
+	<div class="map-canvas" id="map-canvas-contact" data-lat="28.083627" data-lng="-80.608109" data-string="<div class='content'><h3>Let Us Talk ToGether</h3><div><img src='images/icon/map-lc.png' alt='map-lc' /> <p>A12 - Design Street,</p><p>Omaha, United States</p></div><div><img src='{{ asset('front-end/images/icon/map-ph.png')}}' alt='map-ph' /> <p>(01) 987 654 32 1</p><p>(01) 123 456 78 9</p></div><div><img src='{{ asset('front-end/images/icon/map-mail.png')}}' alt='map-mail' /> <a href='mailto:info@company.com'>info@company.com</a><a href='mailto:support@company.com'>Support@company.com</a></p></div></div>" data-zoom="12"></div>
 </div><!-- contact map /- -->
 
 <!-- Contact Form -->
@@ -31,13 +31,13 @@
 				<aside class="widget widget-about ">
 				
 					<ul>
-						<li><img src="images/icon/ftr-location.png" alt="Address">A12 - Dummy Street,
+						<li><img src="{{ asset('front-end/images/icon/ftr-location.png')}}" alt="Address">A12 - Dummy Street,
 
 							<span>Omaha, Kuwait.</span>
 						</li>
-						<li><img src="images/icon/ftr-customer.png" alt="Phone"> Customer Support : <span>+965 502
+						<li><img src="{{ asset('front-end/images/icon/ftr-customer.png')}}" alt="Phone"> Customer Support : <span>+965 502
 								20709</span></li>
-						<li><img src="images/icon/ftr-email.png" alt="Mail"><span>Email :</span><a href="mailto:mail@NationalCab.com"> info@imontaxi.com</a></li>
+						<li><img src="{{ asset('front-end/images/icon/ftr-email.png')}}" alt="Mail"><span>Email :</span><a href="mailto:mail@NationalCab.com"> info@imontaxi.com</a></li>
 
 
 					</ul>

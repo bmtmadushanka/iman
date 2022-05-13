@@ -7,7 +7,7 @@
 		<h3>Blog Posts</h3>
 		<ol class="breadcrumb">
 			<li><a href="#">Home</a></li>
-			<li class="active"><a href="#">Blog</a></li>
+			<li class="active"><a href="{{route('blog')}}">Blog</a></li>
 			
 		</ol>
 	</div>
@@ -27,9 +27,9 @@
 				<div class="col-md-6 col-sm-6 col-xs-12 animated fadeInUp">
 					<article class="blog-post-list">
 						<div class="entry-cover">
-							<a href="#"><img src="images/blog/blog-1.jpg" class="w-100" alt="blog-1"></a>
+							<a href="#"><img src="{{ asset('front-end/images/blog/blog-1.jpg')}}" class="w-100" alt="blog-1"></a>
 							<div class="post-meta">
-								<img src="images/icon/photo.png" alt="photo">
+								<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo">
 							</div>
 							<div class="entry-meta">
 								<div class="meta-inner">
@@ -64,9 +64,9 @@
 				<div class="col-md-6 col-sm-6 col-xs-12 animated fadeInUp">
 					<article class="blog-post-list">
 						<div class="entry-cover">
-							<a href="#"><img src="images/blog/blog-3.jpg" class="w-100" alt="blog-1"></a>
+							<a href="#"><img src="{{ asset('front-end/images/blog/blog-3.jpg')}}" class="w-100" alt="blog-1"></a>
 							<div class="post-meta">
-								<img src="images/icon/photo.png" alt="photo">
+								<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo">
 							</div>
 							<div class="entry-meta">
 								<div class="meta-inner">
@@ -101,9 +101,9 @@
 				<div class="col-md-6 col-sm-6 col-xs-12 animated fadeInUp">
 					<article class="blog-post-list">
 						<div class="entry-cover">
-							<a href="#"><img src="images/blog/blog-1.jpg" class="w-100" alt="blog-1"></a>
+							<a href="#"><img src="{{ asset('front-end/images/blog/blog-1.jpg')}}" class="w-100" alt="blog-1"></a>
 							<div class="post-meta">
-								<img src="images/icon/photo.png" alt="photo">
+								<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo">
 							</div>
 							<div class="entry-meta">
 								<div class="meta-inner">
@@ -165,7 +165,7 @@
 						<p>July 07, 2015</p>
 					</div>
 					<div class="recent-img col-md-4 col-sm-2 col-xs-4 no-padding">
-						<a href="#"><img src="images/widget/recent/recent-1.jpg" alt="recent-1" /></a>
+						<a href="#"><img src="{{ asset('front-end/images/widget/recent/recent-1.jpg')}}" alt="recent-1" /></a>
 					</div>
 				</div>
 				<div class="recent-post-box">
@@ -174,7 +174,7 @@
 						<p>July 07, 2015</p>
 					</div>
 					<div class="recent-img col-md-4 col-sm-2 col-xs-4 no-padding">
-						<a href="#"><img src="images/widget/recent/recent-2.jpg" alt="recent-2" /></a>
+						<a href="#"><img src="{{ asset('front-end/images/widget/recent/recent-2.jpg')}}" alt="recent-2" /></a>
 					</div>
 				</div>
 				<div class="recent-post-box">
@@ -183,7 +183,7 @@
 						<p>July 07, 2015</p>
 					</div>
 					<div class="recent-img col-md-4 col-sm-2 col-xs-4 no-padding">
-						<a href="#"><img src="images/widget/recent/recent-3.jpg" alt="recent-3" /></a>
+						<a href="#"><img src="{{ asset('front-end/images/widget/recent/recent-3.jpg')}}" alt="recent-3" /></a>
 					</div>
 				</div>
 			</aside><!-- Recent Post/- -->

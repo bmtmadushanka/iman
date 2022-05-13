@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('front-end.index');
-});
+
+Route::any('/', [App\Http\Controllers\SiteController::class, 'index'])->name('index');
+Route::any('/about-us', [App\Http\Controllers\SiteController::class, 'about'])->name('about');
+Route::any('/contact-us', [App\Http\Controllers\SiteController::class, 'contact'])->name('contact');
+Route::any('/blog', [App\Http\Controllers\SiteController::class, 'blog'])->name('blog');

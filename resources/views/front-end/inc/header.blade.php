@@ -163,18 +163,18 @@
 							<li class="active"><a href="#">Home</a></li>
 
 							<li class="dropdown">
-								<a href="#faq" class="dropdown-toggle" role="button" aria-haspopup="true"
+								<a href="{{route('about')}}" class="dropdown-toggle" role="button" aria-haspopup="true"
 									aria-expanded="false">About us</a>
 								<i class="ddl-switch fa fa-angle-down"></i>
 								<ul class="dropdown-menu">
-									<li><a href="About-us.php">About us</a></li>
+									<li><a href="{{route('about')}}">About us</a></li>
 									<li><a href="Founder-Message.php">Founder Message</a></li>
 									<li><a href="#">Mission and Vision</a></li>
 									<li><a href="#">Founder Message</a></li>
 
 								</ul>
 							</li>
-							<li><a href="Our-Blog.php">Our Blog</a></li>
+							<li><a href="{{route('blog')}}">Our Blog</a></li>
 							<li><a href="#">Our Services</a></li>
 
 
@@ -182,7 +182,7 @@
 
 
 							<li><a href="#">Testimonials</a></li>
-							<li><a href="Contact-us.php">Contact us</a></li>
+							<li><a href="{{route('contact')}}">Contact us</a></li>
 						</ul>
 					</div>
 					<a href="#">Book For A Ride</a>
