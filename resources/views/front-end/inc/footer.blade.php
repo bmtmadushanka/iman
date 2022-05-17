@@ -14,7 +14,7 @@
 							<li><img src="{{ asset('front-end/images/icon/ftr-customer.png')}}" alt="Phone" /> Customer Support : <span>+965 502
 									20709</span></li>
 							<li><img src="{{ asset('front-end/images/icon/ftr-email.png')}}" alt="Mail" /><span>Email :</span><a
-									href="mailto:mail@NationalCab.com"> info@imontaxi.com</a></li>
+									href="mailto:mail@NationalCab.com"> booking@imantaxiservice.com</a></li>
 
 
 						</ul>
@@ -24,13 +24,13 @@
 					<aside class="widget widget-links">
 						<h3 class="widget-title">Main Menu</h3>
 						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Our Blogs</a></li>
-							<li><a href="#">Our Services</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Testimonials</a></li>
-							<li><a href="#">Contact us</a></li>
+							<li><a href="home">Home</a></li>
+							<li><a href="About-us">About us</a></li>
+							<li><a href="Our-Blog">Our Blogs</a></li>
+							<li><a href="Our-Services">Our Services</a></li>
+							<li><a href="Career">Careers</a></li>
+							<li><a href="testimonial">Testimonials</a></li>
+							<li><a href="Contact-us">Contact us</a></li>
 						</ul>
 					</aside>
 				</div>
@@ -77,15 +77,15 @@
 			<div class="bottom-footer container-fluid no-padding">
 				<div class="container">
 					<ul class="col-md-5 pull-left">
-						<li><a href="#">Terms and Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Cookie Policy</a></li>
+						<li><a href="Terms-and-Conditions">Terms and Conditions</a></li>
+						<li><a href="Privacy-Policy">Privacy Policy</a></li>
+						
 					</ul>
 					<div class="col-md-7 pull-right">
 
 						<p class="copyright">
 							© 2022 IMN Taxi Service. All Rightes Reserved. | Powered by
-							<a href="https://itsolutionlk.com/" class="text-white font-weight-bold" target="_blank">IT
+							<a href="https://itsolutionlk.com/" class="footer-copyright " target="_blank">IT
 								Solution Lanka</a>
 
 						</p>

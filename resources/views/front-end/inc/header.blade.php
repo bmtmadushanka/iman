@@ -27,19 +27,12 @@
 	<link rel="stylesheet" href="{{ asset('front-end/libraries/loader/loaders.min.css') }}">
 
 	<!-- Library - Google Font Familys -->
-	<link
-		href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
-		rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic'
-		rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link
-		href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
-		rel='stylesheet' type='text/css'>
-	<link
-		href='https://fonts.googleapis.com/css?family=Lato:400,100italic,100,300,300italic,400italic,700,700italic,900,900italic'
-		rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100italic,100,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
 	<!-- Library - Bootstrap v3.3.5 -->
 	<link rel="stylesheet" href="{{ asset('front-end/libraries/bootstrap/bootstrap.min.css') }}">
@@ -100,10 +93,10 @@
 					</div>
 					<div class="col-md-8 pull-right top-menu">
 						<ul class="no-bottom-margin">
-							<li><a href="#">Book your Ride</a></li>
+							<li><a href="home/#booktaxifromhere">Book your Ride</a></li>
 
-							<li><a href="#">Become a Driver</a></li>
-							<li><a href="#">Blog</a></li>
+							<li><a href="Career">Become a Driver</a></li>
+							<li><a href="Our-Blog">Blog</a></li>
 							<li><a href="#">عربى</a></li>
 
 
@@ -119,20 +112,30 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 pull-left">
-							<a href="#">
+							<a href="home">
 								<img src="{{ asset('front-end/img/logo.png')}}" alt="Logo" />
 								<!-- <b>National Cab</b><span>Always there for you</span> -->
 							</a>
 						</div>
-						<div class="col-md-6 pull-right top-20">
-							<div class="location">
-								<img src="{{ asset('front-end/images/icon/location-ic.png')}}" alt="Location" />
-								<p>A12 - Dummy Street,<span> Omaha, Kuwait.</span></p>
+						<div class="col-md-8 pull-right top-20">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="location phone">
+										<i class="fa fa-envelope-o fa-2x text-success"></i>
+										<p>Email Address<span class="text-lowercase"> booking@imantaxiservice.com</span></p>
+									</div>
+
+								</div>
+								<div class="col-md-4">
+									<div class="phone">
+										<i class="fa fa-phone fa-2x text-success"></i>
+
+										<p>Call Us Any Time:<span> +965 502 20709</span></p>
+									</div>
+								</div>
 							</div>
-							<div class="phone">
-								<img src="{{ asset('front-end/images/icon/phone-ic.png')}}" alt="phone" />
-								<p>Call Us Any Time:<span> +965 502 20709</span></p>
-							</div>
+
+
 						</div>
 					</div>
 
@@ -141,15 +144,14 @@
 			<nav class="navbar ow-navigation">
 				<div class="container">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-							data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
 						<div class="navbar-brand logo-block">
-							<a href="#">
+							<a href="home">
 								<img src="{{ asset('front-end/images/logo.png')}}" alt="Logo" />
 								<b>National Cab</b><span>Always there for you</span>
 							</a>
@@ -160,11 +162,10 @@
 
 
 
-							<li class="active"><a href="#">Home</a></li>
+							<li class="active"><a href="home">Home</a></li>
 
-							<li class="dropdown">
-								<a href="#faq" class="dropdown-toggle" role="button" aria-haspopup="true"
-									aria-expanded="false">About us</a>
+							<!-- <li class="dropdown">
+								<a href="#faq" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
 								<i class="ddl-switch fa fa-angle-down"></i>
 								<ul class="dropdown-menu">
 									<li><a href="About-us.php">About us</a></li>
@@ -173,19 +174,20 @@
 									<li><a href="#">Founder Message</a></li>
 
 								</ul>
-							</li>
-							<li><a href="Our-Blog.php">Our Blog</a></li>
-							<li><a href="#">Our Services</a></li>
+							</li> -->
+							<li><a href="About-us">About us</a></li>
+							<li><a href="Our-Blog">Our Blog</a></li>
+							<li><a href="Our-Services">Our Services</a></li>
 
 
-							<li><a href="#">Careers</a></li>
+							<li><a href="Career">Careers</a></li>
 
 
-							<li><a href="#">Testimonials</a></li>
-							<li><a href="Contact-us.php">Contact us</a></li>
+							<li><a href="testimonial">Testimonials</a></li>
+							<li><a href="Contact-us">Contact us</a></li>
 						</ul>
 					</div>
-					<a href="#">Book For A Ride</a>
+					<a href="home/#booktaxifromhere">Book For A Ride</a>
 				</div>
 			</nav>
 		</header><!-- Header /- -->
