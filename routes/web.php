@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/home', function () {
     return view('front-end.index');
 });
@@ -44,3 +45,10 @@ Route::get('/Terms-and-Conditions', function () {
     return view('front-end.Terms-and-Conditions');
 });
 
+=======
+
+Route::any('/', [App\Http\Controllers\SiteController::class, 'index'])->name('index');
+Route::any('/about-us', [App\Http\Controllers\SiteController::class, 'about'])->name('about');
+Route::any('/contact-us', [App\Http\Controllers\SiteController::class, 'contact'])->name('contact');
+Route::any('/blog', [App\Http\Controllers\SiteController::class, 'blog'])->name('blog');
+>>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3

@@ -7,7 +7,7 @@
 		<h3>Blog Posts</h3>
 		<ol class="breadcrumb">
 			<li><a href="#">Home</a></li>
-			<li class="active"><a href="#">Blog</a></li>
+			<li class="active"><a href="{{route('blog')}}">Blog</a></li>
 			
 		</ol>
 	</div>
@@ -61,8 +61,85 @@
 						</div>
 					</article>
 				</div>
+<<<<<<< HEAD
 				
 
+=======
+				<div class="col-md-6 col-sm-6 col-xs-12 animated fadeInUp">
+					<article class="blog-post-list">
+						<div class="entry-cover">
+							<a href="#"><img src="{{ asset('front-end/images/blog/blog-3.jpg')}}" class="w-100" alt="blog-1"></a>
+							<div class="post-meta">
+								<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo">
+							</div>
+							<div class="entry-meta">
+								<div class="meta-inner">
+									<div class="by-line pull-left">Posted By <a href="#">Admin</a></div>
+									<div class="post-comment pull-right">
+										<a href="#"><i class="fa fa-comment"></i>Comments<span>16</span></a>
+									</div>
+								</div>
+								<div class="meta-inner">
+									<div class="post-date pull-left"><span>On 30 Oct 2015</span></div>
+									<div class="tags pull-right">
+										<i class="fa fa-tag"></i>
+										<a href="#">City</a>
+										<a href="#">Service</a>
+										<a href="#">Taxi</a>
+										<a href="#">Cab</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="blog-content">
+							<h3 class="entry-title">Why Should Companies Offer Taxi</h3>
+							<div class="entry-content">
+								<p>Fleeing from the Cylon tyranny the last Battlestar leads a rag tag fugitive fleet
+									on a lonely quest a</p>
+								<a href="Blog-Details.php" class="pull-right">Read More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-12 animated fadeInUp">
+					<article class="blog-post-list">
+						<div class="entry-cover">
+							<a href="#"><img src="{{ asset('front-end/images/blog/blog-1.jpg')}}" class="w-100" alt="blog-1"></a>
+							<div class="post-meta">
+								<img src="{{ asset('front-end/images/icon/photo.png')}}" alt="photo">
+							</div>
+							<div class="entry-meta">
+								<div class="meta-inner">
+									<div class="by-line pull-left">Posted By <a href="#">Admin</a></div>
+									<div class="post-comment pull-right">
+										<a href="#"><i class="fa fa-comment"></i>Comments<span>14</span></a>
+									</div>
+								</div>
+								<div class="meta-inner">
+									<div class="post-date pull-left"><span>On 22 Aug 2015</span></div>
+									<div class="tags pull-right">
+										<i class="fa fa-tag"></i>
+										<a href="#">Cab</a>
+										<a href="#">Taxi</a>
+										<a href="#">Rent</a>
+										<a href="#">Hire</a>
+										<a href="#">Trip</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="blog-content">
+							<h3 class="entry-title">Well Trained Drivers On Duty</h3>
+							<div class="entry-content">
+								<p>Fleeing from the Cylon tyranny the last Battlestar leads a rag tag fugitive fleet
+									on a lonely quest a</p>
+								<a href="Blog-Details.php" title="Read More" class="pull-right">Read More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+>>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 			</div>
 		
 			<!-- Pagination -->
@@ -93,6 +170,27 @@
 					</div>
 					<div class="recent-img col-md-4 col-sm-2 col-xs-4 no-padding">
 						<a href="#"><img src="{{ asset('front-end/images/widget/recent/recent-1.jpg')}}" alt="recent-1" /></a>
+<<<<<<< HEAD
+=======
+					</div>
+				</div>
+				<div class="recent-post-box">
+					<div class="recent-title col-md-8 col-sm-10 col-xs-8 no-padding">
+						<a href="#">card attached would say thank you for being</a>
+						<p>July 07, 2015</p>
+					</div>
+					<div class="recent-img col-md-4 col-sm-2 col-xs-4 no-padding">
+						<a href="#"><img src="{{ asset('front-end/images/widget/recent/recent-2.jpg')}}" alt="recent-2" /></a>
+					</div>
+				</div>
+				<div class="recent-post-box">
+					<div class="recent-title col-md-8 col-sm-10 col-xs-8 no-padding">
+						<a href="#">tell me how to get how to get to Sesame Street</a>
+						<p>July 07, 2015</p>
+					</div>
+					<div class="recent-img col-md-4 col-sm-2 col-xs-4 no-padding">
+						<a href="#"><img src="{{ asset('front-end/images/widget/recent/recent-3.jpg')}}" alt="recent-3" /></a>
+>>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 					</div>
 				</div>
 				

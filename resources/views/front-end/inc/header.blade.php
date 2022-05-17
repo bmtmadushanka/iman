@@ -164,27 +164,44 @@
 
 							<li class="active"><a href="home">Home</a></li>
 
+<<<<<<< HEAD
 							<!-- <li class="dropdown">
 								<a href="#faq" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
+=======
+							<li class="dropdown">
+								<a href="{{route('about')}}" class="dropdown-toggle" role="button" aria-haspopup="true"
+									aria-expanded="false">About us</a>
+>>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 								<i class="ddl-switch fa fa-angle-down"></i>
 								<ul class="dropdown-menu">
-									<li><a href="About-us.php">About us</a></li>
+									<li><a href="{{route('about')}}">About us</a></li>
 									<li><a href="Founder-Message.php">Founder Message</a></li>
 									<li><a href="#">Mission and Vision</a></li>
 									<li><a href="#">Founder Message</a></li>
 
 								</ul>
+<<<<<<< HEAD
 							</li> -->
 							<li><a href="About-us">About us</a></li>
 							<li><a href="Our-Blog">Our Blog</a></li>
 							<li><a href="Our-Services">Our Services</a></li>
+=======
+							</li>
+							<li><a href="{{route('blog')}}">Our Blog</a></li>
+							<li><a href="#">Our Services</a></li>
+>>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 
 
 							<li><a href="Career">Careers</a></li>
 
 
+<<<<<<< HEAD
 							<li><a href="testimonial">Testimonials</a></li>
 							<li><a href="Contact-us">Contact us</a></li>
+=======
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="{{route('contact')}}">Contact us</a></li>
+>>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 						</ul>
 					</div>
 					<a href="home/#booktaxifromhere">Book For A Ride</a>
