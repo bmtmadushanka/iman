@@ -30,4 +30,16 @@ class SiteController extends Controller
     {
         return view('front-end.our-blog');
     }
+    public function services()
+    {
+        return view('front-end.services');
+    }
+    public function career()
+    {
+        return view('front-end.career');
+    }
+    public function testimonial()
+    {
+        return view('front-end.testimonial');
+    }
 }

@@ -10,18 +10,12 @@
 		</ol>
 	</div>
 </div><!-- Banner Section /- -->
-<<<<<<< HEAD
-
-
-<div class="container-fluid no-padding app">
-=======
 <div class="container-fluid no-padding what-we-do">
 	<div class="section-padding"></div>
 	<div class="image-box">
 		<img src="{{ asset('front-end/images/services/service-1.png')}}" alt="service">
 	</div>
 	<!-- Container -->
->>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 	<div class="container">
 		<div class="section-padding"></div>
 		<div class="col-md-6">
@@ -109,8 +103,6 @@
 
 
 
-<<<<<<< HEAD
-=======
 
 
 <!-- What We Do -->
@@ -179,5 +171,4 @@
 
 
 
->>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 @include('front-end/inc/footer')

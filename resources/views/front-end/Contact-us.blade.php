@@ -13,14 +13,10 @@
 	</div>
 </div><!-- Banner Section /- -->
 
-<<<<<<< HEAD
-
-=======
 <!-- contact map /- -->
 <div class="map">
 	<div class="map-canvas" id="map-canvas-contact" data-lat="28.083627" data-lng="-80.608109" data-string="<div class='content'><h3>Let Us Talk ToGether</h3><div><img src='images/icon/map-lc.png' alt='map-lc' /> <p>A12 - Design Street,</p><p>Omaha, United States</p></div><div><img src='{{ asset('front-end/images/icon/map-ph.png')}}' alt='map-ph' /> <p>(01) 987 654 32 1</p><p>(01) 123 456 78 9</p></div><div><img src='{{ asset('front-end/images/icon/map-mail.png')}}' alt='map-mail' /> <a href='mailto:info@company.com'>info@company.com</a><a href='mailto:support@company.com'>Support@company.com</a></p></div></div>" data-zoom="12"></div>
 </div><!-- contact map /- -->
->>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 
 <!-- Contact Form -->
 <div class="contact-form container-fluid no-padding ">
@@ -33,8 +29,6 @@
 				<div class="section-header text-center">
 					<h3>Contact Infomation</h3>
 				</div><!-- Section Header -->
-<<<<<<< HEAD
-=======
 				<aside class="widget widget-about ">
 				
 					<ul>
@@ -55,7 +49,6 @@
 				<p>Got kind of tired packin' and unpackin' - town to town and up and down the dial. Movin' on up to the east side. We finally got a piece of the pie.</p>
 			</div>
 			<div class="col-md-8 col-sm-12">
->>>>>>> 9397768542f12f5675be0d1bbb1272f0bd1d20f3
 				<form class="row" id="contact-form" method="post">
 					<div class="col-md-6 col-sm-6 form-group">
 						<input type="text" class="form-control" id="input_name" name="contact-name" placeholder="First Name" required>

@@ -7,7 +7,7 @@
 	<div id="photos-slider" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="{{ asset('front-end/images/photos-slider/photo-slide-1.jpg')}}" alt="side-1" />
+				<img src="{{ asset('front-end/images/photos-slider/1.jpg')}}" alt="side-1" />
 				<div class="carousel-caption">
 					<h2>A reliable way to travel</h2>
 					<p>Come and listen to a story about a man named Jed a poor mountaineer barely kept his
@@ -18,7 +18,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<img src="{{ asset('front-end/images/photos-slider/photo-slide-2.jpg')}}" alt="side-2" />
+				<img src="{{ asset('front-end/images/photos-slider/2.jpg')}}" alt="side-2" />
 				<div class="carousel-caption">
 					<h2>A reliable way to travel</h2>
 					<p>Come and listen to a story about a man named Jed a poor mountaineer barely kept his
